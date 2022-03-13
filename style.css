@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Qwitcher+Grypen:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left-panel{
+    height: 100vh;
+    background-color: #ce3d3d;
+    width: 200px;
+}
+.left-panel .logo img{
+    height: 31px;
+    width: 168px;
+    margin-top: 37px;
+    margin-left: 16px;
+}
+.left-panel .black{
+    margin-top: 33px;
+    height: 5px;
+    width: 200px;
+    background-color: #2a2525;
+}
+.left-panel .user img{
+    height: 26px;
+    margin-top: 15px;
+    margin-left: 14px;
+    float: left;
+}
+.left-panel .user .name{
+    margin-top: 17px;
+    margin-left: 16px;
+    font-size: 16px;
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.left-panel .left img{
+    height: 26px;
+    margin-top: 77px;
+    margin-left: -146px;
+    float: left;
+}
+.left-panel .left .name{
+    margin-top: 45px;
+    margin-left: 14px;
+    font-size: 18px; 
+    float: left;
+    color: #fff;
+    font-weight: 400;
+}
+.courses h1{
+    margin-top: -44.5%;
+    margin-left: 230px;
+    color: #262626;
+    font-family: "Noto Serif",serif;
+    font-size: 1.875rem;
+    font-weight: 400;
+}
+.courses .black{
+    margin-top: 36px;
+    margin-left: 200px;
+    height: 1px;
+    width: 87%;
+    background-color: #d6d2d2;
+}
+.current .black{
+    margin-top: 20px;
+    margin-left: 200px;
+    height: 1px;
+    width: 87%;
+    background-color: #d6d2d2;
+    border-bottom: 4px solid #c0bbbb ;
+}
+.current h1{
+    text-align: center;
+    margin-top: 22px;
+    color: #7c7878;
+    font-family: "Noto Serif",serif;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.current h6{
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 80%;
+    color: #3a3838;
+    font-family: "Noto Serif",serif;
+    font-size: 0.9rem;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.current h6:hover{
+    text-decoration: underline;
+}
+.course-name .box1{
+    position: fixed;
+    margin-top: -1px;
+    margin-left: 220px;
+    width: 300px;
+    height: 35vh;
+    background-color: #fff;
+    border: 1px solid rgb(138, 135, 135);
+    cursor: pointer;
+}
+.course-name .box2{
+    position: fixed;
+    position: relative;
+    margin-top: 148px;
+    margin-left: 540px;
+    width: 300px;
+    height: 35vh;
+    background-color: #fff;
+    border: 1px solid rgb(138, 135, 135);
+    cursor: pointer;
+}
+.course-name .box3{
+    position: fixed;
+    margin-top: -251px;
+    margin-left: 860px;
+    width: 300px;
+    height: 35vh;
+    background-color: #fff;
+    border: 1px solid rgb(138, 135, 135);
+    cursor: pointer;
+}
+.course-name .box4{
+    position: fixed;
+    margin-top: -251px;
+    margin-left: 1180px;
+    width: 300px;
+    height: 35vh;
+    background-color: #fff;
+    border: 1px solid rgb(138, 135, 135);
+    cursor: pointer;
+}
